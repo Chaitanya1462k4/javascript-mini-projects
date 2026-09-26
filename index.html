@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JavaScript Mini Projects</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #222;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 700px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 30px;
+            color: #666;
+        }
+
+        .projects {
+            display: grid;
+            gap: 15px;
+        }
+
+        .project {
+            display: block;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #222;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .project:hover {
+            transform: translateY(-3px);
+        }
+
+        .project h2 {
+            margin-bottom: 8px;
+        }
+
+        .project p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>JavaScript Mini Projects</h1>
+
+        <p>A collection of my JavaScript projects</p>
+
+        <div class="projects">
+
+            <a class="project" href="./currency-converter/">
+                <h2>💱 Currency Converter</h2>
+                <p>Convert currencies using JavaScript.</p>
+            </a>
+
+            <a class="project" href="./rockpaperscissors/">
+                <h2>✊ Rock Paper Scissors</h2>
+                <p>Play Rock Paper Scissors against the computer.</p>
+            </a>
+
+            <a class="project" href="./tictactoe/">
+                <h2>⭕ Tic Tac Toe</h2>
+                <p>Play a simple Tic Tac Toe game.</p>
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
